@@ -1,0 +1,13 @@
+{
+  "comparison": "LR_sigmoid minus RF_sigmoid; conditional paired percentile bootstrap, 2000 resamples",
+  "auc_difference": 0.019656019656019597,
+  "brier_difference": -0.03793769551715594,
+  "auc_ci": [
+    0.0011214008682363054,
+    0.04992088963963952
+  ],
+  "brier_ci": [
+    -0.06981863511561413,
+    -0.009227859939036631
+  ]
+}

@@ -1,0 +1,31 @@
+seed=2026 model=LR cv_auc=0.9927 ab=[2.544 1.47 ] elapsed=1.7s
+seed=2026 model=RF cv_auc=0.9912 ab=[2.947 1.485] elapsed=12.2s
+seed=2026 model=HGB cv_auc=0.9836 ab=[0.431 0.004] elapsed=15.5s
+seed=2027 model=LR cv_auc=0.9971 ab=[ 1.416 -2.222] elapsed=15.6s
+seed=2027 model=RF cv_auc=0.9846 ab=[ 4.761 -2.445] elapsed=18.5s
+seed=2027 model=HGB cv_auc=0.9860 ab=[ 1.224 -1.64 ] elapsed=20.0s
+seed=2028 model=LR cv_auc=0.9925 ab=[2.645 1.095] elapsed=20.1s
+seed=2028 model=RF cv_auc=0.9862 ab=[2.348 0.391] elapsed=23.2s
+seed=2028 model=HGB cv_auc=0.9865 ab=[0.506 0.268] elapsed=24.6s
+seed=2029 model=LR cv_auc=0.9941 ab=[7.613 1.951] elapsed=24.7s
+seed=2029 model=RF cv_auc=0.9899 ab=[ 2.442 -0.523] elapsed=27.7s
+seed=2029 model=HGB cv_auc=0.9894 ab=[ 0.509 -1.071] elapsed=29.1s
+seed=2030 model=LR cv_auc=0.9974 ab=[ 1.736 -0.17 ] elapsed=29.2s
+seed=2030 model=RF cv_auc=0.9909 ab=[ 1.458 -0.303] elapsed=32.0s
+seed=2030 model=HGB cv_auc=0.9968 ab=[0.403 0.043] elapsed=33.4s
+seed=2031 model=LR cv_auc=0.9995 ab=[ 0.776 -0.712] elapsed=33.5s
+seed=2031 model=RF cv_auc=0.9931 ab=[ 1.748 -0.236] elapsed=36.4s
+seed=2031 model=HGB cv_auc=0.9971 ab=[ 0.614 -0.76 ] elapsed=37.7s
+seed=2032 model=LR cv_auc=0.9956 ab=[1.652 0.163] elapsed=37.9s
+seed=2032 model=RF cv_auc=0.9912 ab=[ 3.097 -1.64 ] elapsed=40.7s
+seed=2032 model=HGB cv_auc=0.9904 ab=[ 1.297 -1.036] elapsed=42.1s
+seed=2033 model=LR cv_auc=0.9982 ab=[1.13 0.03] elapsed=42.2s
+seed=2033 model=RF cv_auc=0.9895 ab=[2.035 0.705] elapsed=45.1s
+seed=2033 model=HGB cv_auc=0.9963 ab=[0.362 0.407] elapsed=46.4s
+seed=2034 model=LR cv_auc=0.9942 ab=[ 0.386 -0.294] elapsed=46.6s
+seed=2034 model=RF cv_auc=0.9910 ab=[ 1.081 -0.56 ] elapsed=49.4s
+seed=2034 model=HGB cv_auc=0.9883 ab=[ 0.614 -0.952] elapsed=50.8s
+seed=2035 model=LR cv_auc=0.9935 ab=[ 0.848 -0.265] elapsed=50.9s
+seed=2035 model=RF cv_auc=0.9902 ab=[ 0.615 -0.158] elapsed=53.7s
+seed=2035 model=HGB cv_auc=0.9898 ab=[ 0.359 -0.022] elapsed=55.1s
+COMPLETE {'python': '3.12.14', 'platform': 'Windows-11-10.0.26200-SP0', 'numpy': '2.5.4', 'pandas': '3.0.1', 'scipy': '1.18.1', 'sklearn': '1.9.1', 'seeds': [2026, 2027, 2028, 2029, 2030, 2031, 2032, 2033, 2034, 2035], 'elapsed_seconds': 58.41550374031067, 'alpha': 0.1, 'cv': '5 fold stratified within training only', 'selection_metric': 'ROC-AUC', 'splits': [284, 85, 86, 114], 'sigmoid_penalty': 0.0001, 'noise': 'max(0, X_test + sigma * train_std * Z), same Z at all levels', 'date': '2026-11-10'}

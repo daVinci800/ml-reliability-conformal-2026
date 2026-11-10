@@ -1,0 +1,12 @@
+{
+  "n": 569,
+  "features": 30,
+  "malignant": 212,
+  "benign": 357,
+  "missing": 0,
+  "duplicate_features": 0,
+  "duplicate_labeled_rows": 0,
+  "constant_features": 0,
+  "sha256": "02ad40816f1828d2ca88c03e59a4562ebb88f9cc011b183ad2cf6d506603a70e",
+  "label_mapping": "sklearn target 0 malignant -> 1; sklearn target 1 benign -> 0"
+}

@@ -1,0 +1,33 @@
+{
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "numpy": "2.5.4",
+  "pandas": "3.0.1",
+  "scipy": "1.18.1",
+  "sklearn": "1.9.1",
+  "seeds": [
+    2026,
+    2027,
+    2028,
+    2029,
+    2030,
+    2031,
+    2032,
+    2033,
+    2034,
+    2035
+  ],
+  "elapsed_seconds": 58.41550374031067,
+  "alpha": 0.1,
+  "cv": "5 fold stratified within training only",
+  "selection_metric": "ROC-AUC",
+  "splits": [
+    284,
+    85,
+    86,
+    114
+  ],
+  "sigmoid_penalty": 0.0001,
+  "noise": "max(0, X_test + sigma * train_std * Z), same Z at all levels",
+  "date": "2026-11-10"
+}

@@ -1,0 +1,262 @@
+[
+  {
+    "seed": 2026,
+    "model": "LR",
+    "cv_auc": 0.9926767676767676,
+    "params": {
+      "logisticregression__C": 0.1
+    }
+  },
+  {
+    "seed": 2026,
+    "model": "RF",
+    "cv_auc": 0.9911616161616162,
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 1
+    }
+  },
+  {
+    "seed": 2026,
+    "model": "HGB",
+    "cv_auc": 0.9835858585858587,
+    "params": {
+      "learning_rate": 0.1,
+      "max_leaf_nodes": 7
+    }
+  },
+  {
+    "seed": 2027,
+    "model": "LR",
+    "cv_auc": 0.9970595595595595,
+    "params": {
+      "logisticregression__C": 10.0
+    }
+  },
+  {
+    "seed": 2027,
+    "model": "RF",
+    "cv_auc": 0.9846056771056771,
+    "params": {
+      "max_depth": 5,
+      "min_samples_leaf": 4
+    }
+  },
+  {
+    "seed": 2027,
+    "model": "HGB",
+    "cv_auc": 0.9860045760045761,
+    "params": {
+      "learning_rate": 0.05,
+      "max_leaf_nodes": 7
+    }
+  },
+  {
+    "seed": 2028,
+    "model": "LR",
+    "cv_auc": 0.9924675324675324,
+    "params": {
+      "logisticregression__C": 0.1
+    }
+  },
+  {
+    "seed": 2028,
+    "model": "RF",
+    "cv_auc": 0.986218487394958,
+    "params": {
+      "max_depth": 5,
+      "min_samples_leaf": 4
+    }
+  },
+  {
+    "seed": 2028,
+    "model": "HGB",
+    "cv_auc": 0.9864782276546983,
+    "params": {
+      "learning_rate": 0.1,
+      "max_leaf_nodes": 15
+    }
+  },
+  {
+    "seed": 2029,
+    "model": "LR",
+    "cv_auc": 0.994081224081224,
+    "params": {
+      "logisticregression__C": 0.1
+    }
+  },
+  {
+    "seed": 2029,
+    "model": "RF",
+    "cv_auc": 0.9899463749463748,
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 1
+    }
+  },
+  {
+    "seed": 2029,
+    "model": "HGB",
+    "cv_auc": 0.989398326898327,
+    "params": {
+      "learning_rate": 0.1,
+      "max_leaf_nodes": 15
+    }
+  },
+  {
+    "seed": 2030,
+    "model": "LR",
+    "cv_auc": 0.9973544973544973,
+    "params": {
+      "logisticregression__C": 0.1
+    }
+  },
+  {
+    "seed": 2030,
+    "model": "RF",
+    "cv_auc": 0.9908730158730158,
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 1
+    }
+  },
+  {
+    "seed": 2030,
+    "model": "HGB",
+    "cv_auc": 0.9968253968253968,
+    "params": {
+      "learning_rate": 0.1,
+      "max_leaf_nodes": 15
+    }
+  },
+  {
+    "seed": 2031,
+    "model": "LR",
+    "cv_auc": 0.9994708994708994,
+    "params": {
+      "logisticregression__C": 1.0
+    }
+  },
+  {
+    "seed": 2031,
+    "model": "RF",
+    "cv_auc": 0.9931216931216931,
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 1
+    }
+  },
+  {
+    "seed": 2031,
+    "model": "HGB",
+    "cv_auc": 0.997089947089947,
+    "params": {
+      "learning_rate": 0.05,
+      "max_leaf_nodes": 7
+    }
+  },
+  {
+    "seed": 2032,
+    "model": "LR",
+    "cv_auc": 0.9956084656084656,
+    "params": {
+      "logisticregression__C": 1.0
+    }
+  },
+  {
+    "seed": 2032,
+    "model": "RF",
+    "cv_auc": 0.9911874374374374,
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 1
+    }
+  },
+  {
+    "seed": 2032,
+    "model": "HGB",
+    "cv_auc": 0.9903721578721578,
+    "params": {
+      "learning_rate": 0.05,
+      "max_leaf_nodes": 7
+    }
+  },
+  {
+    "seed": 2033,
+    "model": "LR",
+    "cv_auc": 0.9981864682631946,
+    "params": {
+      "logisticregression__C": 1.0
+    }
+  },
+  {
+    "seed": 2033,
+    "model": "RF",
+    "cv_auc": 0.9895024412927228,
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 4
+    }
+  },
+  {
+    "seed": 2033,
+    "model": "HGB",
+    "cv_auc": 0.9963496861195071,
+    "params": {
+      "learning_rate": 0.1,
+      "max_leaf_nodes": 15
+    }
+  },
+  {
+    "seed": 2034,
+    "model": "LR",
+    "cv_auc": 0.9941798941798942,
+    "params": {
+      "logisticregression__C": 10.0
+    }
+  },
+  {
+    "seed": 2034,
+    "model": "RF",
+    "cv_auc": 0.991005291005291,
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 4
+    }
+  },
+  {
+    "seed": 2034,
+    "model": "HGB",
+    "cv_auc": 0.9883333333333333,
+    "params": {
+      "learning_rate": 0.05,
+      "max_leaf_nodes": 15
+    }
+  },
+  {
+    "seed": 2035,
+    "model": "LR",
+    "cv_auc": 0.9935064935064934,
+    "params": {
+      "logisticregression__C": 1.0
+    }
+  },
+  {
+    "seed": 2035,
+    "model": "RF",
+    "cv_auc": 0.990183346065699,
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 1
+    }
+  },
+  {
+    "seed": 2035,
+    "model": "HGB",
+    "cv_auc": 0.9898395721925134,
+    "params": {
+      "learning_rate": 0.1,
+      "max_leaf_nodes": 15
+    }
+  }
+]

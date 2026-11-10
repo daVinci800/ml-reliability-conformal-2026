@@ -1,0 +1,22 @@
+{
+  "train": {
+    "n": 284,
+    "malignant": 120,
+    "benign": 164
+  },
+  "prob_cal": {
+    "n": 85,
+    "malignant": 30,
+    "benign": 55
+  },
+  "conformal_cal": {
+    "n": 86,
+    "malignant": 25,
+    "benign": 61
+  },
+  "test": {
+    "n": 114,
+    "malignant": 37,
+    "benign": 77
+  }
+}
