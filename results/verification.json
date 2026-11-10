@@ -5,5 +5,7 @@
   "metric_rows": 240,
   "conformal_rows": 480,
   "split_rows": 5690,
+  "label_set_invariance_pairs": 13680,
+  "label_set_invariance_differences": 0,
   "note": "Checks exported predictions; does not constitute independent clinical validation."
 }

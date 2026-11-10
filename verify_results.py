@@ -32,6 +32,13 @@ for keys,g in p.groupby(['seed','model','version','sigma']):
         assert abs(pred.sum(axis=1).mean()-row.set_size)<1e-12
         assert abs(hit[g.y.to_numpy()==1].mean()-row.malignant_coverage)<1e-12
     checks+=1
-result={'status':'PASS','group_checks':checks,'prediction_rows':len(p),'metric_rows':len(m),'conformal_rows':len(c),'split_rows':len(s),'note':'Checks exported predictions; does not constitute independent clinical validation.'}
+order=['seed','model','sigma','row_id']
+raw=p[p.version=='raw'].sort_values(order)
+cal=p[p.version=='sigmoid'].sort_values(order)
+assert raw[order].reset_index(drop=True).equals(cal[order].reset_index(drop=True))
+cols=['label_benign','label_malignant']
+differences=int(np.any(raw[cols].to_numpy()!=cal[cols].to_numpy(),axis=1).sum())
+assert differences==0, 'The empirical monotonic-invariance observation changed; inspect new numerical ties.'
+result={'status':'PASS','group_checks':checks,'prediction_rows':len(p),'metric_rows':len(m),'conformal_rows':len(c),'split_rows':len(s),'label_set_invariance_pairs':len(raw),'label_set_invariance_differences':differences,'note':'Checks exported predictions; does not constitute independent clinical validation.'}
 (root/'results/verification.json').write_text(json.dumps(result,indent=2),encoding='utf8')
 print(result)
